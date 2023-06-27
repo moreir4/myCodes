@@ -1,5 +1,5 @@
 #Faça um algorítimo que leia o preço de um produto e mostre o seu novo preço com 5% de desconto
-preco = int(input('Informe o preço do produto: '))
+preco = float(input('Informe o preço do produto: '))
 desconto = 0.05
 valordesconto = preco * desconto
 valorfinal = preco - valordesconto
